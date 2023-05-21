@@ -12,4 +12,9 @@ body{
             text-align: center;
         }
     }
+
+    #mixin-example{
+        @include shape (50%, 100px, 100px, yellow, orangered, 5%, 1.5em, italic, bolder);
+        @include flex-config;
+    }
 }

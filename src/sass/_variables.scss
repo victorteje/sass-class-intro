@@ -3,3 +3,20 @@ $titleColor: crimson;
 $TextColorOne: darkorchid;
 $TextColortwo: green;
 
+@mixin shape ($border-radius, $height, $width, $background-color, $color, $padding, $font-size, $font-style, $font-weight) {
+    border-radius: $border-radius;
+    height: $height;
+    width: $width;
+    background-color: $background-color;
+    color: $color;
+    padding: $padding;
+    font-size: $font-size;
+    font-style: $font-style;
+    font-weight: $font-weight;
+}
+
+@mixin flex-config {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
