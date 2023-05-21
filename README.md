@@ -8,4 +8,4 @@ npm install
 
 //////// Done:
 
-Created a mixin and applied it
+Created two mixins and applied them
