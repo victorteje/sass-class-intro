@@ -1,11 +1,11 @@
 //////// Info
 
-This repository was created to teach the basics of sass
+This repository was created to learn the basics of sass
 
 //////// Install
 
 npm install
 
-//////// To do:
+//////// Done:
 
-Tyr to create a mixin and apply it
+Created a mixin and applied it
